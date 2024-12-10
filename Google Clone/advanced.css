@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    color: #1f1f1f;
+}
+
+.logo {
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #ea4335;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a73e8;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(60, 64, 67, 0.15);
+}
+
+.buttons {
+    text-align: right;
+}
+
+.buttons input[type="submit"] {
+    background-color: #1a73e8;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.buttons input[type="submit"]:hover {
+    background-color: #1558c0;
+}
+
+.buttons input[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.4);
+}
